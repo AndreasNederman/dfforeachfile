@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copyforeachmetadata",
 	"properties": {
 		"activities": [
 			{
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "dfin",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
@@ -109,7 +109,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "DelimitedText3",
+									"referenceName": "dfout",
 									"type": "DatasetReference"
 								}
 							]
